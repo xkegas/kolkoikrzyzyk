@@ -1,0 +1,83 @@
+.root{
+-fx-background-color: #808080;
+
+}
+*{
+-fx-background-color: transparent;
+}
+
+#dawidTlo
+{
+-fx-background-image: url("jasperTlo.jpg");
+-fx-background-size: 350px 500px;
+-fx-background-repeat: no-repeat;
+}
+#infoLabel
+{
+-fx-font-size: 14px;
+ -fx-text-fill: #ffffff;
+}
+
+#buttonAgain
+{
+-fx-text-fill: #ffffff;
+}
+
+#buttonTlo{
+-fx-text-fill: #ffffff;
+}
+
+#wygrany {
+-fx-text-fill: #7CFC00;
+-fx-border-width: 2;
+ -fx-text-fill: #ffffff;
+ -fx-opacity: 1;
+}
+
+#buttonBot, #buttonPowrot
+{
+-fx-text-fill: #ffffff;
+}
+
+#button1,#button2,#button3,#button4,#button5,#button6,#button7,#button8,#button9 {
+ -fx-border-width: 2;
+ -fx-background-color: rgba(0,0,0,0.2);
+ -fx-text-fill: #ffffff;
+ -fx-opacity: 1;
+}
+
+#button1 {
+-fx-border-style: hidden solid hidden hidden;
+}
+
+#button2 {
+-fx-border-style: hidden solid hidden hidden;
+}
+
+#button4 {
+-fx-border-style: solid solid hidden hidden;
+}
+
+#button5 {
+-fx-border-style: solid solid hidden hidden;
+}
+#button6 {
+-fx-border-style: solid hidden hidden hidden;
+}
+
+#button7 {
+-fx-border-style: solid solid hidden hidden;
+}
+
+#button8 {
+-fx-border-style: solid solid hidden hidden;
+}
+
+#button9 {
+-fx-border-style: solid hidden hidden hidden;
+}
+
+#kolkoWynik, #krzyzykWynik, #kolkoTekst, #krzyzykTekst {
+ -fx-text-fill: #ffffff;
+
+}

@@ -1,0 +1,73 @@
+.root{
+-fx-background-image: url("najmanTlo.gif");
+-fx-background-size: 350px 500px;
+-fx-background-repeat: no-repeat;
+
+}
+*{
+-fx-background-color: #808080;
+}
+
+#buttonBot, #buttonPowrot
+{
+-fx-text-fill: #ffffff;
+}
+
+#kolkoWynik, #krzyzykWynik, #kolkoTekst, #krzyzykTekst {
+ -fx-text-fill: #ffffff;
+}
+
+
+#buttonTlo{
+-fx-text-fill: #ffffff;
+}
+
+#infoLabel
+{
+-fx-font-size: 14px;
+ -fx-text-fill: #ffffff;
+}
+
+#buttonAgain
+{
+-fx-text-fill: #ffffff;
+}
+
+#button1,#button2,#button3,#button4,#button5,#button6,#button7,#button8,#button9 {
+-fx-background-color: #808080;
+ -fx-border-width: 2;
+ -fx-text-fill: #ffffff;
+ -fx-opacity: 1;
+}
+
+#button1 {
+-fx-border-style: hidden solid hidden hidden;
+}
+
+#button2 {
+-fx-border-style: hidden solid hidden hidden;
+}
+
+#button4 {
+-fx-border-style: solid solid hidden hidden;
+}
+
+#button5 {
+-fx-border-style: solid solid hidden hidden;
+}
+#button6 {
+-fx-border-style: solid hidden hidden hidden;
+}
+
+#button7 {
+-fx-border-style: solid solid hidden hidden;
+}
+
+#button8 {
+-fx-border-style: solid solid hidden hidden;
+}
+
+#button9 {
+-fx-border-style: solid hidden hidden hidden;
+}
+
